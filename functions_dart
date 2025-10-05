@@ -1,3 +1,24 @@
 void main(){
+    var list1 = [7388, 1783, 2839, 38291, 673849];
+    var list2 = [9038, 6738, 8927, 63772, 34912,384991];
+    var list3 = [82939,999,1293,3749,1093, 2773, 943];
+    var list4 = [7849, 343,3647,8088,27839,189928];
     
+    findMaxNumber(list1)
+    findMaxNumber(list2)
+    findMaxNumber(list3)
+    findMaxNumber(list4)
+}
+
+void findMaxNumber(List<int> numbers){
+int max = numbers[0];
+
+for(var num in numbers){
+    if(num > max){
+        max = num;
+
+
+    }
+}
+print("The largest number is $number is $max");
 }
