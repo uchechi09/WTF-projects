@@ -57,7 +57,6 @@ void main(){
 
 
 
-
 // DO WHILE LOOP
 
 // var age = 1;
@@ -66,9 +65,19 @@ void main(){
 // }while(age > 1);
 
 // FOR LOOP
-for(var i = 1; i <= 10; i++){
-print(i);
+// for(var i = 1; i <= 10; i++){
+// print(i);
+
+
+
+//FOR IN LOOP
+var messages = {"Joy": "Hello", "Grace": "Hi", "Amaka": "How are you doing", "Felix": "I am fine"};
+for (var key in messages.keys){
+  //print("$key - ${messages.[key]}");
 
 }
+
 print("After Looping");
+
 }
+
